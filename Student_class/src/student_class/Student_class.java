@@ -30,13 +30,13 @@ public class Student_class {
                
            // mutator methods // name assigns new name to name etc with the rest 
                
-             public void setname(String newname ){ name = newname;}
-             public void setAddress(String newAddress){ Address = newAddress;}
-             public void setAge(int newAge){ Age = newAge;}
-             public void setPhonenumber( String newPhonenumber){ Phonenumber = newPhonenumber;}
+              public void setname(String newname ){ name = newname;}
+              public void setAddress(String newAddress){ Address = newAddress;}
+              public void setAge(int newAge){ Age = newAge;}
+              public void setPhonenumber( String newPhonenumber){ Phonenumber = newPhonenumber;}
              
              
-           // Demonstrating the class by writing a program that creates three instances of it. 
+           // Demonstrating the class by writing a program that creates three instances. 
              
                   
     
@@ -88,7 +88,7 @@ public class Student_class {
                     System.out.println(Student3.getAddress());
                     System.out.println(Student3.getPhonenumber());
                 
-              // TODO code application logic here
+              
          
         
     }
